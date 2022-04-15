@@ -1,0 +1,1 @@
+ping $1 | while read pong; do echo "$(date --iso-8601=seconds): $pong"; done
